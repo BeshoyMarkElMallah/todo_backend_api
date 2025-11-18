@@ -1,0 +1,8 @@
+POST http://localhost:3000/todos/add
+Content-Type: application/json
+
+{
+"todo": "Buy groceries for the week (milk, bread, eggs)",
+"completed": false,
+"userId": 201
+}
